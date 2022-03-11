@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 678px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.left_wrapper {
+  width: 50%;
+  height: 100%;
+  background-color: #B3B5AE;
+  position: absolute;
+}
+
+.left_wrapper .navbar {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.left_wrapper .navbar .left_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 170px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.left_wrapper .navbar .right_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 8px;
+  font-weight: 900;
+  color: white;
+}
+
+.left_wrapper .image {
+  width: 550px;
+  overflow: hidden;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 148px;
+  z-index: 1;
+}
+
+.left_wrapper .image img {
+  width: 550px;
+  height: 400px;
+}
+
+.left_wrapper h1 {
+  font-size: 80px;
+  position: absolute;
+  left: 0;
+  color: rgba(255, 255, 255, 0.027);
+  font-weight: 700;
+  bottom: 300px;
+  z-index: 2;
+  -webkit-text-stroke: 0.1vw white;
+}
+
+.left_wrapper .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.493);
+  position: absolute;
+  z-index: 1;
+  right: 150px;
+}
+
+.left_wrapper .bottom a {
+  font-size: 7px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.left_wrapper .bottom ion-icon {
+  color: white;
+}
+
+.right_wrapper {
+  width: 50%;
+  height: 100%;
+  background-color: #191921;
+  color: white;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.right_wrapper .navbar {
+  padding-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right_wrapper .navbar .nav_center {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right_wrapper .navbar .nav_center img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.right_wrapper .navbar .nav_center a {
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.right_wrapper .center {
+  position: absolute;
+  right: 0;
+  top: 250px;
+}
+
+.right_wrapper .center h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.right_wrapper .center p {
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.right_wrapper .bottom {
+  position: absolute;
+  bottom: 70px;
+  right: 70px;
+}
+
+.right_wrapper .bottom p {
+  letter-spacing: 10px;
+  font-weight: 150;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.right_wrapper .bottom .line {
+  width: 40px;
+  height: 0.7px;
+  background-color: rgba(255, 255, 255, 0.589);
+  position: absolute;
+  bottom: 37px;
+  left: -50px;
+}
+/*# sourceMappingURL=style.css.map */
